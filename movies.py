@@ -39,4 +39,3 @@ twelve_angry = media.Movie("12 Angry Men",
 movies = [shawshank, the_godfather, the_godfather_2, pulp_fiction, the_good_the_bad, twelve_angry]
 
 fresh_tomatoes.open_movies_page(movies)
-11
