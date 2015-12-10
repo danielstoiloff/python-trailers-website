@@ -1,7 +1,7 @@
 import fresh_tomatoes
 import media
 
-
+#List of movies.
 shawshank = media.Movie("Shawshank Redemption",
                         "A banker who is sentenced to life in Shawshank State Penitentiary.",
                         "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",
@@ -34,4 +34,5 @@ twelve_angry = media.Movie("12 Angry Men",
 
 movies = [shawshank, the_godfather, the_godfather_2, pulp_fiction, the_good_the_bad, twelve_angry]
 
+#Call 
 fresh_tomatoes.open_movies_page(movies)
