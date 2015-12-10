@@ -17,7 +17,6 @@ the_godfather_2 = media.Movie("The Godfather Part II",
                        "https://upload.wikimedia.org/wikipedia/en/0/03/Godfather_part_ii.jpg",
                        "https://www.youtube.com/watch?v=8PyZCU2vpi8")
 
-
 pulp_fiction = media.Movie("Pulp Fiction",
                        "American black comedy crime film written and directed by Quentin Tarantino.",
                        "https://upload.wikimedia.org/wikipedia/en/8/82/Pulp_Fiction_cover.jpg",
@@ -32,9 +31,6 @@ twelve_angry = media.Movie("12 Angry Men",
                        "12 men as they deliberate the guilt or acquittal of a defendant on the basis of reasonable doubt.",
                        "https://upload.wikimedia.org/wikipedia/en/9/91/12_angry_men.jpg",
                        "https://www.youtube.com/watch?v=fSG38tk6TpI")
-
-
-
 
 movies = [shawshank, the_godfather, the_godfather_2, pulp_fiction, the_good_the_bad, twelve_angry]
 
