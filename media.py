@@ -1,6 +1,7 @@
 import webbrowser
 
 class Movie():
+    """This is my documentation. This is a movie Class"""
     RATINGS = ["P", "PG", "PG13", "R"]
     
     def __init__(this_self, name, plot, image_url, trailer_url):
