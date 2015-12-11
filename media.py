@@ -14,5 +14,4 @@ class Movie():
     #Play trailer 
     def showTrailer(self):
         webbrowser.open_new_tab(self.trailer_youtube_url)
-        
-class TvShow(Movie):
+
