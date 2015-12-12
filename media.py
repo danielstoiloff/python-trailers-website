@@ -5,11 +5,12 @@ class Movie():
     RATINGS = ["P", "PG", "PG13", "R"]
 
     #Initialize constructor
-    def __init__(this_self, name, plot, image_url, trailer_url):
+    def __init__(this_self, name, plot, image_url, trailer_url, year_r):
         this_self.title = name
         this_self.storyline = plot
         this_self.poster_image_url = image_url
         this_self.trailer_youtube_url = trailer_url
+        this_self.year = year_r
 
     #Play trailer 
     def showTrailer(self):
