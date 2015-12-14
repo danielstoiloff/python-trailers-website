@@ -39,7 +39,7 @@ main_page_head = '''
             padding-top: 20px;
         }
         .movie-tile:hover {
-            background-color: #EEE;
+            background-color: red;
             cursor: pointer;
         }
         .scale-media {
@@ -80,6 +80,15 @@ main_page_head = '''
             $(this).next("div").show("fast", showNext);
           });
         });
+        
+        // Show storyline when hover over movie
+        $(document).on('mouseenter', '.movie-tile', function (event) {
+          console.log('in');
+        });
+        $(document).on('mouseleave', '.movie-tile', function (event) {
+          console.log('out');
+        });
+        
     </script>
 </head>
 '''
